@@ -1,0 +1,8 @@
+
+
+
+
+
+In JavaScript, when you have asynchronous operations (such as fetching data from a server, reading files, or handling user input), they do not block the execution of other code. Instead, they are executed in the background, and the JavaScript engine continues executing the code that follows without waiting for the asynchronous operation to complete.
+
+So, if you have asynchronous operations followed by synchronous code, the synchronous code will continue executing while the asynchronous operations are still running in the background. When the asynchronous operations complete, their callback functions are pushed to the event queue and will be executed when the JavaScript engine is idle.
